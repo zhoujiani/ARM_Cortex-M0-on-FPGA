@@ -1,0 +1,35 @@
+============================================================
+   Tang Dynasty, V5.6.71036
+      Copyright (c) 2012-2023 Anlogic Inc.
+   Executable = D:/TD/bin/td.exe
+   Built at =   20:34:38 Mar 21 2023
+   Run by =     POTATO
+   Run Date =   Fri Dec  1 18:10:48 2023
+
+   Run on =     LAPTOP-CEL0PSQP
+============================================================
+RUN-1001 : reset_run syn_1 phy_1.
+RUN-1001 : launch_runs syn_1 phy_1  -jobs 6.
+RUN-6001 WARNING: syn_1: run failed.
+RUN-1002 : start command "download -bit ..\..\..\..\CortexM0_SOC.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit ../../../../CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.794478s wall, 0.000000s user + 0.015625s system = 0.015625s CPU (0.2%)
+
+RUN-1004 : used memory is 241 MB, reserved memory is 180 MB, peak memory is 272 MB
+RUN-1003 : finish command "download -bit ..\..\..\..\CortexM0_SOC.bit -mode jtag -spd 7 -sec 64 -cable 0" in  6.999417s wall, 0.046875s user + 0.031250s system = 0.078125s CPU (1.1%)
+
+RUN-1004 : used memory is 241 MB, reserved memory is 180 MB, peak memory is 272 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit ..\..\..\..\CortexM0_SOC.bit -mode jtag -spd 7 -sec 64 -cable 0"
+PRG-2014 : Chip validation success: EAGLE_S20_BG256
+RUN-1002 : start command "bit_to_vec -chip EAGLE_S20_BG256 -m jtag_burst -freq 4 -bit ../../../../CortexM0_SOC.bit"
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  6.810218s wall, 0.031250s user + 0.015625s system = 0.046875s CPU (0.7%)
+
+RUN-1004 : used memory is 232 MB, reserved memory is 175 MB, peak memory is 272 MB
+RUN-1003 : finish command "download -bit ..\..\..\..\CortexM0_SOC.bit -mode jtag -spd 7 -sec 64 -cable 0" in  7.016138s wall, 0.125000s user + 0.015625s system = 0.140625s CPU (2.0%)
+
+RUN-1004 : used memory is 232 MB, reserved memory is 175 MB, peak memory is 272 MB
+GUI-1001 : Downloading succeeded!

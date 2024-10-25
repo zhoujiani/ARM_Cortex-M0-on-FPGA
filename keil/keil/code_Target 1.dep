@@ -1,0 +1,72 @@
+Dependencies for Project 'code', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\code_def.c)(0x653936B2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\code_def.o --omf_browse .\code_def.crf --depend .\code_def.d)
+I (mpuiic.h)(0x65113CE8)
+I (code_def.h)(0x6507155C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (sflash.h)(0x625A8E46)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (ld3320.h)(0x646F4A4C)
+F (.\code_def.h)(0x6507155C)()
+F (.\main.c)(0x656A87C0)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (code_def.h)(0x6507155C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (sflash.h)(0x625A8E46)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (mpuiic.h)(0x65113CE8)
+I (ld3320.h)(0x646F4A4C)
+I (pajiic.h)(0x646CC65C)
+I (game.h)(0x65114A6E)
+F (.\startup_CMSDK_CM0.s)(0x65392F08)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include--pd "__UVISION_VERSION SETA 536" --pd "CMSDK_CM0 SETA 1"--list .\listings\startup_cmsdk_cm0.lst --xref -o .\startup_cmsdk_cm0.o --depend .\startup_cmsdk_cm0.d)
+F (.\Retarget.c)(0x61FB7E22)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Keil5\ARM\ARMCC\include\time.h)(0x60252378)
+I (D:\Keil5\ARM\ARMCC\include\rt_misc.h)(0x60252376)
+I (D:\Keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (code_def.h)(0x6507155C)
+I (sflash.h)(0x625A8E46)
+F (.\mpuiic.c)(0x6540FD9F)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\mpuiic.o --omf_browse .\mpuiic.crf --depend .\mpuiic.d)
+I (mpuiic.h)(0x65113CE8)
+I (code_def.h)(0x6507155C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (sflash.h)(0x625A8E46)
+F (.\mpuiic.h)(0x65113CE8)()
+F (.\ld3320.c)(0x6506EAEE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\ld3320.o --omf_browse .\ld3320.crf --depend .\ld3320.d)
+I (ld3320.h)(0x646F4A4C)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (code_def.h)(0x6507155C)
+I (sflash.h)(0x625A8E46)
+F (.\pajiic.c)(0x6537B008)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\pajiic.o --omf_browse .\pajiic.crf --depend .\pajiic.d)
+I (pajiic.h)(0x646CC65C)
+I (code_def.h)(0x6507155C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (sflash.h)(0x625A8E46)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (paj7620u2_cfg.h)(0x646CCA58)
+F (.\lcd.c)(0x650C5194)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (code_def.h)(0x6507155C)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (sflash.h)(0x625A8E46)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
+I (lcdfont.h)(0x646C50DA)
+F (.\sflash.c)(0x64364B32)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\sflash.o --omf_browse .\sflash.crf --depend .\sflash.d)
+I (sflash.h)(0x625A8E46)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (code_def.h)(0x6507155C)
+F (.\sflash.h)(0x625A8E46)()
+F (.\pajiic.h)(0x646CC65C)()
+F (.\paj7620u2_cfg.h)(0x646CCA58)()
+F (.\lcdfont.h)(0x646C50DA)()
+F (.\game.c)(0x6540FC0E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I ..\keil-ID:\Keil5_pack\Keil\V2M-MPS2_CMx_BSP\1.8.1\Device\CMSDK_CM0\Include-D__UVISION_VERSION="536" -DCMSDK_CM0-o .\game.o --omf_browse .\game.crf --depend .\game.d)
+I (game.h)(0x65114A6E)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (code_def.h)(0x6507155C)
+I (sflash.h)(0x625A8E46)
+I (D:\Keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
+I (D:\Keil5\ARM\ARMCC\include\string.h)(0x6025237E)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
